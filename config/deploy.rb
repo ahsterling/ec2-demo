@@ -1,7 +1,7 @@
 # config valid only for current version of Capistrano
 lock '3.3.5'
 
-set :application, 'waitlist'
+set :application, 'bookbot'
 set :repo_url, 'git@github.com:ahsterling/ec2-demo.git'
 set :use_sudo, false
 
