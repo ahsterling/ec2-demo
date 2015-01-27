@@ -17,7 +17,7 @@
 
 server 'ec2-54-200-182-188.us-west-2.compute.amazonaws.com',
   user: 'ubuntu',
-  roles: %w{web app},
+  roles: %w{web app db},
   ssh_options: {
    keys: %w(/Users/Allie/.ssh/ec2-ada.pem),
    forward_agent: false,
